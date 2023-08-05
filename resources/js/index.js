@@ -1,4 +1,3 @@
-
 // getID will create a new unique ID
 // If I do Math.random(), we will get numbers which are less than 1 and greater than 0.
 //Then We will convert it to string
