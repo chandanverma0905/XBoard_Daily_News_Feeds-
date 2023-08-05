@@ -21,7 +21,7 @@ const getAccordionItem = (title, id) => {
        ${title}
      </button>
     </h2>
-   <div id="collapse${id}" class="accordion-collapse collapse" data-bs-parent="#accordionExample${id}">
+  <div id="collapse${id}" class="accordion-collapse collapse" data-bs-parent="#accordionExample${id}">
      <div class="accordion-body">
             
      </div>
@@ -37,12 +37,12 @@ const getCarouselOuter = (id, innerId) =>{
           </div>
 
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample${id}" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:black"></span>
           <span class="visually-hidden">Previous</span>
           </button>
           
           <button class="carousel-control-next" type="button" data-bs-target="#carouselExample${id}" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:black"></span>
           <span class="visually-hidden">Next</span>
           </button>
 
